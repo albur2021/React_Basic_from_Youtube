@@ -2,14 +2,18 @@ import React, { Component } from "react";
 
 class Welcome extends Component {
   render() {
+    //distructuring properties
+    const {id,name,job,} = this.props;
+    //the same way with 'state' which is not used here
+    //ex: const {state1, state2} = this.state
     return (
       <div>
-        <h1>Id: {this.props.id},</h1>
-        {this.children}
-        <h1>Name: {this.name}, </h1>
-        {this.children}
-        <h1>Position: {this.job}</h1>
-        {this.children}
+        <h1>Id: {id},</h1>
+       
+        <h1>Name: {name}, </h1>
+        
+        <h1>Position: {job}</h1>
+      
       </div>
     );
   }

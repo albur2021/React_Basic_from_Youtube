@@ -10,7 +10,7 @@ return(
     <h1>Name: {props.name}, </h1>
     {props.children}
     <h1>Position: {props.job}</h1>
-    {props.children}
+    {props.childrenx}
   </div>
   )
 }

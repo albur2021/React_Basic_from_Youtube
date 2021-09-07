@@ -7,6 +7,8 @@ import Hello from './components/Hello';
 import Message from './components/Message';
 import Counter from './components/Counter';
 import Disctructure from './components/Distructure';
+import FunctionClick from './components/FunctionClick';
+import ClassClick from './components/ClassClick';
 
 function App() {
   return (
@@ -15,14 +17,15 @@ function App() {
       <Greet id='Greet Funct Comp' name='Clark' job='back-end tester'><button>Action</button></Greet> */}
       
       
-      <Welcome id='Welcome Class Comp' name='Bruce' job='developer'></Welcome>
-      <Welcome id='Welcome Class Comp' name='Clark' job='bakc-end tester'></Welcome>
+      {/* <Welcome id='Welcome Class Comp' name='Bruce' job='developer'></Welcome>
+      <Welcome id='Welcome Class Comp' name='Clark' job='bakc-end tester'></Welcome> */}
       {/* <Hello/> */}
       {/* <Message></Message> */}
       {/* <Counter addValue='1'/> */}
-      <Disctructure name="Java" heroName="JavaProject"/>
-      <Disctructure name="JS" heroName="Mern"/>
-
+      {/* <Disctructure name="Java" heroName="JavaProject"/>
+      <Disctructure name="JS" heroName="Mern"/> */}
+      <FunctionClick/>
+      <ClassClick/>
     
     </div>
   );

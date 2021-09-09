@@ -15,6 +15,10 @@ import UserGreeting from './components/UserGreeting';
 import NameList from './components/NameList';
 import NameList_2 from './components/NameList_2';
 import IndexAsKey from './components/IndexAsKey';
+import Stylesheet from './components/Stylesheet';
+import Inline from './components/Inline';
+import './styleCss/appStyles.css';
+import styles from './styleCss/appStyles.module.css';
 
 function App() {
   return (
@@ -37,7 +41,11 @@ function App() {
       {/* <UserGreeting/> */}
       {/* <NameList/>
       <NameList_2/> */}
-      <IndexAsKey/>
+      {/* <IndexAsKey/> */}
+      <h1 className = 'error'>Error</h1>
+      <h1 className = {styles.success}>Success</h1>
+     <Stylesheet primary={true}/>
+     <Inline/>
       
     
     </div>

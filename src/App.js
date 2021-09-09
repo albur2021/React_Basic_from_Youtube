@@ -10,6 +10,7 @@ import Disctructure from './components/Distructure';
 import FunctionClick from './components/FunctionClick';
 import ClassClick from './components/ClassClick';
 import EventBind from './components/EventBind';
+import ParentComponent from './components/ParentComponent';
 
 function App() {
   return (
@@ -27,7 +28,8 @@ function App() {
       <Disctructure name="JS" heroName="Mern"/> */}
       {/* <FunctionClick/>
       <ClassClick/> */}
-      <EventBind/>
+      {/* <EventBind/> */}
+      <ParentComponent/>
     
     </div>
   );

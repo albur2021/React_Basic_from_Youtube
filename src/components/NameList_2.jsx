@@ -24,7 +24,10 @@ const NameList_2 = (props) =>{
         }
   ];
   const personList = persons.map(person =>(
-     <Person person = {person}></Person>
+      //A ‘key’ is a special string attribute you need to include when creating lists of elemenents
+      //A 'key' give the elemenents a stable identity
+      //A 'key' help React identify which items have changed, are added, or are removed
+     <Person key={person.id} person = {person}></Person>
   ))
 return(
   <div>

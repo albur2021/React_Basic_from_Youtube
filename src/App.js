@@ -9,6 +9,7 @@ import Counter from './components/Counter';
 import Disctructure from './components/Distructure';
 import FunctionClick from './components/FunctionClick';
 import ClassClick from './components/ClassClick';
+import EventBind from './components/EventBind';
 
 function App() {
   return (
@@ -24,8 +25,9 @@ function App() {
       {/* <Counter addValue='1'/> */}
       {/* <Disctructure name="Java" heroName="JavaProject"/>
       <Disctructure name="JS" heroName="Mern"/> */}
-      <FunctionClick/>
-      <ClassClick/>
+      {/* <FunctionClick/>
+      <ClassClick/> */}
+      <EventBind/>
     
     </div>
   );

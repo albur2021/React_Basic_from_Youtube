@@ -14,6 +14,7 @@ import ParentComponent from './components/ParentComponent';
 import UserGreeting from './components/UserGreeting';
 import NameList from './components/NameList';
 import NameList_2 from './components/NameList_2';
+import IndexAsKey from './components/IndexAsKey';
 
 function App() {
   return (
@@ -34,8 +35,9 @@ function App() {
       {/* <EventBind/> */}
       {/* <ParentComponent/> */}
       {/* <UserGreeting/> */}
-      <NameList/>
-      <NameList_2/>
+      {/* <NameList/>
+      <NameList_2/> */}
+      <IndexAsKey/>
       
     
     </div>

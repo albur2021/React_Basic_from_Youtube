@@ -3,6 +3,7 @@ import Person from './Person';
 
 
 const NameList_2 = (props) =>{
+  
     const persons = [
         {
           id: 1,
